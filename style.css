@@ -1,0 +1,102 @@
+/*Global CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius:2px;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*CSS for top section*/
+header > img{
+    width:10rem;
+    display:block;
+    margin:auto;
+    padding:10px;
+}
+nav{
+   
+    font-size:1.5rem;
+    padding:50px 50px 10px 50px;
+    width:50%;
+    display:block;
+    margin:auto;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+}
+nav a:hover{
+    cursor: pointer;
+    color:steelblue;
+}
+nav ul{
+    display:flex;
+    flex-grow:1;
+    list-style-type:none;
+    justify-content: space-between;
+}
+/*CSS for mid-section*/
+main article{
+    display:block;
+    margin:auto;
+    text-align:center;
+}
+#promotion_banner{
+    background:rgb(225, 222, 222);
+    width:80vw;
+    padding:10px;
+}
+h1{
+    padding-bottom:10px;
+}
+#promotion_banner p{
+    font-size:2vw;
+}
+section > img{
+    width:26vw;
+    padding: 10px 0px 10px 0px;
+    
+}
+.img_container{
+    margin-top:20px;
+    width:80vw;
+    display: grid;
+    align-items:center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content:space-between;
+}
+
+/*bottom section CSS*/
+
+footer{
+    margin-top:20px;
+    padding:20px;
+    width:80vw;
+    display:block;
+    margin:auto;
+    border-top: 5px solid rgb(225, 222, 222);
+    display: grid;
+    align-items:center;
+    grid-template-columns: auto auto auto;
+    justify-content:space-between;
+    font-size:1.5vw;
+}
+footer img{
+    width:7vw;
+}
+#icon_container a{
+    color:black;
+    padding-left:10px;
+}
+#icon_container a:hover{
+    color:steelblue;
+}
+@media only screen and (max-width:810px) {
+    nav{
+        width:100%;
+        font-size:5vw;
+    }
+}
